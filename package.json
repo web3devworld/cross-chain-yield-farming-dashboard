@@ -1,0 +1,53 @@
+{
+    "name": "cross-chain-yield-farming-dashboard",
+    "version": "1.0.0",
+    "description": "A dApp enabling users to track and manage yield farming activities across multiple blockchains.",
+    "main": "src/index.jsx",
+    "scripts": {
+      "start": "webpack serve --mode development",
+      "build": "webpack --mode production",
+      "lint": "eslint .",
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/web3devworld/cross-chain-yield-farming-dashboard.git"
+    },
+    "author": "Web3Dev Strategy Consulting <support@web3dev.click>",
+    "license": "MIT",
+    "dependencies": {
+      "@tanstack/react-query": "^4.29.5", // For API caching and performance optimization
+      "dotenv-webpack": "^8.0.1", // For environment variable management
+      "ethers": "^5.7.2", // For Web3 integration
+      "react": "^18.2.0", // React library
+      "react-dom": "^18.2.0" // React DOM library
+    },
+    "devDependencies": {
+      "@babel/core": "^7.22.5", // Babel core for transpiling modern JavaScript
+      "@babel/preset-env": "^7.22.5", // Babel preset for ES6+ features
+      "@babel/preset-react": "^7.22.5", // Babel preset for React
+      "babel-loader": "^9.1.2", // Babel loader for Webpack
+      "css-loader": "^6.7.1", // CSS loader for Webpack
+      "eslint": "^8.44.0", // Linting tool
+      "html-webpack-plugin": "^5.5.0", // Webpack plugin for HTML files
+      "jest": "^29.5.0", // Testing framework
+      "style-loader": "^3.3.1", // Style loader for Webpack
+      "webpack": "^5.88.2", // Webpack bundler
+      "webpack-cli": "^5.1.4", // Webpack CLI
+      "webpack-dev-server": "^4.15.1" // Webpack development server
+    },
+    "keywords": [
+      "dApp",
+      "Web3",
+      "Yield Farming",
+      "Cross-Chain",
+      "React",
+      "Blockchain"
+    ],
+    "homepage": "https://web3dev.click",
+    "bugs": {
+      "url": "https://github.com/web3devworld/cross-chain-yield-farming-dashboard/issues",
+      "email": "support@web3dev.click"
+    },
+    "//": "Developed by Web3Dev Strategy Consulting https://web3dev.click support@web3dev.click"
+  }

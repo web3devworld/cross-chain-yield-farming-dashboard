@@ -1,0 +1,33 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore environment variables
+.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+npm-debug.log*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Webpack cache
+.cache/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore lock files (optional, depending on your preference)
+# yarn.lock
+# package-lock.json
+
+# Developed by Web3Dev Strategy Consulting https://web3dev.click support@web3dev.click
